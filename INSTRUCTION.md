@@ -3,9 +3,6 @@
 kind create cluster --config cluster.yml
 ```
 
-
-
-
 ### Run script:
 
 ```bash
