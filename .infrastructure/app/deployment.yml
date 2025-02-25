@@ -96,8 +96,7 @@ spec:
             - labelSelector:
                 matchLabels:
                   app: todoapp
-              topologyKey: "kubernetes.io/hostname"
-        
+              topologyKey: "kubernetes.io/hostname"       
       volumes:
       - name: data
         persistentVolumeClaim:
